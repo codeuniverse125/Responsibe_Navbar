@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+    color: aqua;
+}
+.menu-list{
+    text-align: right;
+    background-color: aquamarine;
+    color: black;
+    font-family: sans-serif;
+    
+
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    span
+    {
+      display: block;
+    
+    }
+    ul li
+    {
+        display: block;
+        
+    }
+
+    ul 
+    {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
